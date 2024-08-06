@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 10vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+}
+.nav-part1{
+  height: 100%;
+  width: 40%;
+  background-color: blanchedalmond;
+}
+.nav-part2{
+  height: 100%;
+  width: 60%;
+  background-color: whitesmoke;
+}
