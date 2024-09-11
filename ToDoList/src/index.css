@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(0, 0%, 10%);
+}
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.add-button{
+    background-color: rgb(86, 253, 253);
+}
+.add-button:hover{
+    background-color: rgb(151, 255, 255);
+}
+.delete-button{
+    background-color: rgb(255, 52, 52);
+}
+.delete-button:hover{
+    background-color: rgb(255, 109, 109);
+}
+.move-button{
+    background-color: rgb(66, 255, 49);
+}
+.move-button:hover{
+    background-color: rgb(124, 255, 112);
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsl(0, 0%, 0%, 0.5);
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 0%, 97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.753);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+ /* flex-grow:1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+ instead of these three we can write below one*/
+    flex: 1;
+}
+.delete-button, .move-button{
+    padding: 8px 12px;
+    margin-left: 10px;
+}

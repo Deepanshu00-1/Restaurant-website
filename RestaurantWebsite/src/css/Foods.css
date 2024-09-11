@@ -1,5 +1,5 @@
 .Foods{
-    height: 220vh;
+    height: 270vh;
     width: 100%;
     background-color:whitesmoke;
     overflow-x: hidden;
@@ -20,7 +20,7 @@
 .foodCards{
     height: 87%;
     width: 100%;
-    background-color: aquamarine;   
+    /* background-color: aquamarine;    */
     /* display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

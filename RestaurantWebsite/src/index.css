@@ -355,7 +355,7 @@ header{
   } */
   .responsiveNav{
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
     /* background: rgba(216, 212, 212, 0.5); */
     /* backdrop-filter: blur(20px); */
     display: flex;
@@ -365,8 +365,8 @@ header{
     font-style: normal;
     display: none;
     /* overflow: hidden; */
-    z-index: 1000;
-    position: absolute;
+    z-index: 99;
+    position: fixed;
   }
   .nav1{
     width: 100%;
@@ -391,7 +391,6 @@ header{
     gap: 5vw;
     align-items: center;
     justify-content: center;
-    
   }
   .nav2 div{
     width: 0.5vw;

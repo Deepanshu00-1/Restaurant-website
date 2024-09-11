@@ -10,8 +10,27 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* overflow-x: hidden; */
   }
+  .menu{
+    position: absolute;
+    z-index: 1;
+    background-image: url(../assets/menu3.JPG);
+
+    background-color: #383d52;
+    width: 50vw;
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    left: 34%;
+    top: 0;
+    justify-content: end;
+    transition: opacity 0.4s ease;
+    animation: animatetop 0.4s;
+  }
+  @keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
   .hero-section h1{
     position: absolute;
     top: 20vh;
@@ -47,7 +66,7 @@
     top:45%;
     left: 18%;
     width: 0;
-    height: 10%;
+    height: 12%;
     color: #FFB41D;
     -webkit-text-stroke: 0vw #383d52;
     border-right: 2px solid #061E5C;
