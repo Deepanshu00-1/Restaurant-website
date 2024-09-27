@@ -75,38 +75,93 @@
 }
 .card .access{
     height: 10%;
-    width: 100%;
+    width: 110%;
     display: flex;
     /* background-color: rgb(14, 17, 16); */
     flex-direction: row;
     align-items: center;
+    margin-left: -1vw;
+    padding-left: 4vw;
+}
+.card .access .price{
+    margin-left: -4vw;
+    width: 4vw;
+    height: 5vh;
+    /* background-color: antiquewhite; */
+    position: absolute;
+    font-size: 4vh;
 }
 .card .access .like{
-    margin-left: 3vw;
+    margin-left: 1vw;
     height: 4vh;
     width: 2vw;
-    font-size: 4vh;
-    margin-top: 0.5vh;
+    font-size: 5vh;
+    margin-top: -1.5vh;
 }
-.card .access .like i:hover{
+.card .access i{
+    color: hsla(0, 0%, 59%, 0.897);
+    margin-left: 2.5vw;
+}
+.card .access i:hover{
     /* color: crimson; */
     cursor: pointer;
     /* text-decoration-color: crimson; */
 }
+.card .access span{
+    height: 5vh;
+    width: 3vw;
+    /* background-color: #f8f8f8; */
+    position: absolute;
+    margin-left: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
 
 .card .access button{
     height: 5vh;
-    width: 8vw;
+    width: 6vw;
     background-color: rgb(202, 202, 202);
-    font-size: 2.5vh;
+    font-size: 2vh;
     /* z-index: 1100; */
     position: absolute;
-    margin-left: 10vw;
+    margin-left: 8vw;
     border-radius: 1vh;
     /* font-weight: bold; */
 }
 
 .card .access button:hover{
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+.card .access button{
+    border: 2px solid #FFB41D;
+}
+.card .access button:active{
+    border: 2px solid #061E5C;
+}
+
+.card .access .btn2{
+    height: 5vh;
+    width: 3vw;
+    background-color: rgb(202, 202, 202);
+    font-size: 4vh;
+    /* z-index: 1100; */
+    position: absolute;
+    margin-left: 16vw;
+    border-radius: 1vh;
+    /* font-weight: bold; */
+    border: 2px solid #FFB41D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .access .btn2:active{
+    border: 2px solid #061E5C;
+}
+
+.card .access .btn2:hover{
     background-color: rgb(182, 182, 182);
     cursor: pointer;
 }

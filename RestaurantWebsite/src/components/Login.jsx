@@ -36,7 +36,7 @@ const LoginForm =()=>{
         <span  id="closeIcon" onClick={()=>dispatch(setFalse())}><i className="fa-solid fa-xmark" ></i></span>
             <h1>Login</h1>
             <div className="input">
-                <input type="text" placeholder="      username or email address..."/>
+                <input type="text" placeholder="      username or email address..."style={{fontSize:'24px'}} />
                 <input type="text" placeholder="      Password..."/>
                 <button>Submit</button>
             </div>

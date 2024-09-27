@@ -5,6 +5,8 @@ const FoodData1 = [
         foodName: 'Mozzarella Sticks',
         foodInfo: 'Read More',
         Btn: 'Add To Cart',
+        Btn2: 'Remove',
+        price: '100₹',
     },
     {
         id: 2,
@@ -12,6 +14,8 @@ const FoodData1 = [
         foodName: 'Bacon Burger',
         foodInfo: 'Read More',
         Btn: 'Add To Cart',
+        Btn2: 'Remove',
+        price: "179₹"
     },
     {
         id: 3,
@@ -19,6 +23,8 @@ const FoodData1 = [
         foodName: 'Hot Fudge Sundai',
         foodInfo: 'Read More',
         Btn: 'Add To Cart',
+        Btn2: 'Remove',
+        price: "299₹"
     },
     {
         id: 4,
@@ -26,6 +32,8 @@ const FoodData1 = [
         foodName: 'Brocalli Cheddar Soup',
         foodInfo: 'Read More',
         Btn: 'Add To Cart',
+        Btn2: 'Remove',
+        price: "99₹"
     },
     {
         id: 5,
@@ -33,6 +41,8 @@ const FoodData1 = [
         foodName: 'Potato Wedges',
         foodInfo: 'Read More',
         Btn: 'Add To Cart',
+        Btn2: 'Remove',
+        price: "115₹"
     },
     {
         id: 6,
@@ -40,6 +50,8 @@ const FoodData1 = [
         foodName: 'Strawberry Sundae',
         foodInfo: 'Read More',
         Btn: 'Add To Cart',
+        Btn2: 'Remove',
+        price: "249₹"
     },
     {
         id: 7,
@@ -47,6 +59,7 @@ const FoodData1 = [
         foodName: 'as',
         foodInfo: 're',
         Btn:'Add To Cart',
+        Btn2: 'Remove',
     }
 ]
 export default FoodData1

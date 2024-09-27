@@ -64,6 +64,10 @@ header{
   align-items: center;
   z-index: 2;
 }
+header .nav-part2 .active{
+  font-weight: bold;
+  color: red;
+}
 
 .nav-part1{
   height: 100%;
@@ -93,11 +97,27 @@ header{
   /* overflow: hidden; */
   /* gap: 6vw; */
 }
+.nav-part2 .cart-icon{
+  height: 100%;
+  width: 80vw;
+  /* background-color: #a4a8b4; */
+}
+.nav-part2 .cart-icon i{
+  position: absolute;
+  color:#061E5C;
+  margin-top: 3vh;
+  margin-left: 10vw;
+  font-size: 5vh;
+  /* z-index: 3000; */
+  top: 0%;
+  left: 0%;
+}
+
 .nav-part2 .cartNotification{
   position: absolute;
   z-index: 1000;
   top: 10%;
-  left: 60.2%;
+  left: 60.5%;
   background-color: #061E5C;
   height: 3.5vh;
   width: 1.8vw;
@@ -115,13 +135,15 @@ header{
   font-size: 3.5vh;
   color: #061E5C;
   margin-top: 5vh;
+  z-index: 2;
+  text-decoration: none;
 }
 
-.nav-part2 i{
+/* .nav-part2 i{
   color:#061E5C;
   margin-top: 5vh;
   font-size: 5vh;
-}
+} */
 
 .nav-part2 i:hover{
   cursor: pointer;
@@ -131,6 +153,12 @@ header{
   cursor: pointer;
   color: #FFB41D;
 }
+
+/* .nav-part2 span{
+  height: 10vh;
+  width: 10vw;
+  background-color: #061E5C;
+} */
 
 .nav-part3{
   height: 100%;
@@ -149,6 +177,7 @@ header{
   justify-content: right;
   align-items: center;
   display: flex;
+  z-index: 2;
   /* background-color: antiquewhite; */
 }
 .searchIcon i{
@@ -175,6 +204,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
   /* background-color: burlywood; */
 }
 .loginBtn button{

@@ -7,6 +7,7 @@ import {Provider} from 'react-redux'
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import LoginForm from './components/Login.jsx'
 import SignUpForm from './components/SignUp.jsx'
+import { BrowserRouter } from 'react-router-dom';
 
 // const router = createBrowserRouter([
 //   {
@@ -25,9 +26,10 @@ import SignUpForm from './components/SignUp.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <BrowserRouter>
     <Provider store={store}>
     <App />
-    {/* <RouterProvider router={router}/> */}
     </Provider>,
+    </BrowserRouter>
   </React.StrictMode>,
 )

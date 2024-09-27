@@ -1,3 +1,9 @@
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
+import {NavLink} from "react-router-dom"
+
 import Logo from "../assets/restaurantLogo.png"
 // #FFB41D
 // #061E5C
@@ -93,11 +99,27 @@ function Header(){
                 <img src={Logo} alt="Logo" />
             </div>
             <div className="nav-part2">
-                <h3>Home</h3>
-                <h3>Menu</h3>
-                <h3 className = "pagesNav" >Pages</h3>
-                <i className="fa-solid fa-cart-shopping"></i>
-                <div className="cartNotification">{count}</div>
+                <h3>
+                    <NavLink to="/" exact activeclassname="active">
+                    Home 
+                    </NavLink>
+                </h3>
+                <h3>
+                    <NavLink to="/menu" activeclassname="active">
+                        Menu 
+                    </NavLink>
+                </h3>
+                <h3 className = "pagesNav" >
+                    <NavLink to="/pages"  activeclassname="active">
+                        Pages 
+                    </NavLink>
+                </h3>
+                <div className="cart-icon">
+                    <NavLink to ="/cart" activeclassname="active">
+                        <i className="fa-solid fa-cart-shopping"></i>
+                        <div className="cartNotification">{count}</div>
+                    </NavLink>
+                </div>
             </div>
             {/* <input type="checkbox" id="mycheckbox2"></input> */}
             {/* <div className="pagesList">

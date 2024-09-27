@@ -9,6 +9,8 @@ const displayFoodCard = (FoodData1)=>{
         foodName = {FoodData1.foodName}
         foodInfo = {FoodData1.foodInfo}
         Btn = {FoodData1.Btn}
+        Btn2 = {FoodData1.Btn2}
+        price = {FoodData1.price}
         />
     )
 }
