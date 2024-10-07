@@ -17,6 +17,8 @@ const objects = [
 for(i=0; i<=2; i++){
     arr.push(objects[i]);
 }
+let obj1 = objects[0]
 console.log(arr);
+console.log(obj1.name);
 
 
